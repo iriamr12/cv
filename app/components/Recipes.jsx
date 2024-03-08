@@ -13,20 +13,8 @@ import { TbBrandVscode } from "react-icons/tb";
 
 const Recipes = () => {
      
-    const [recipes, setRecipes] =useState(false);
-    const [books, setBooks] =useState(false);
     const router = useRouter()
 
-
-    const handleRecipeChange = () => {
-        setRecipes(true);
-        router.push('/RecipesAppResume')
-    }
-
-    const handleBooksChange = () => {
-      setBooks(true);
-      router.push('/BooksAppResume')
-    }
 
   return (
     <div className='grid grid-cols-2 gap-4'>

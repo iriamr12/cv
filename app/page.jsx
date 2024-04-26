@@ -20,7 +20,7 @@ export default function Home() {
         <section id="first-section" className="bg-dark-pomegranade h-96 text-plain-beige flex justify-center items-center" >
           <div>
               <h1 className="text-5xl mb-8" > Hello, I'm Iria Moreno Rodriguez</h1>
-              <h2 className="text-2xl mb-6">A full-stack software engineer</h2>
+              <h2 className="text-2xl mb-6">A full-stack software developer</h2>
               <div>
                 <ul className="flex flex-row justify-center">
                   <li>
@@ -53,7 +53,7 @@ export default function Home() {
         <section id="second-section" className="bg-plain-beige h-96 text-dark-pomegranade flex justify-center items-center ">
           <div className="px-80">
               <h1 className="text-3xl mb-10">About Me</h1>
-              <p className="mb-8">Hi! It's Iria Moreno, a political scientist into tech. It may seem weird, but here I am! I graduated as a political scientist and after that I deepen in the area by joining a Master's degree in Government and Public Administration, which I accomplished exposing my final thesis based on the study of the Spanish Digital Public Administration. The inefficiencies identified during the process pushed me to learn the technical way to solve them. After some time, study and effort, I became Software developer.
+              <p className="mb-8">Hi! It's Iria Moreno, <span className="font-bold">a political scientist into tech</span>. It may seem weird, but here I am! I graduated as a political scientist and after that I deepen in the area by joining a Master's degree in Government and Public Administration, which I accomplished exposing my final thesis based on the study of the Spanish Digital Public Administration. The inefficiencies identified during the process pushed me to learn the technical way to solve them. After some time, study and effort, I became Software developer.
 
 </p>
                 <a className="text-xs underline hover:underline-offset-4" href="/ANÁLISIS DE LA COMPLEJIDAD CONCEPTUAL Y TÉCNICA DE LA IDENTIDAD DIGITAL EN ESPAÑA.pdf" target="_blank">If your Duolingo lessons have paid off, check out my final master's thesis</a>
@@ -71,7 +71,7 @@ export default function Home() {
             
         </section>
       
-        <section id="fourth-section" className="bg-plain-light-blue h-96 text-plain-dark-blue flex justify-center items-center">
+        <section id="fourth-section" className="bg-plain-light-blue text-plain-dark-blue flex justify-center items-center pb-10">
           <div className="border-solid">
             <h1 className="text-3xl mb-10 text-bold">Projects</h1>
             <Recipes />

@@ -9,6 +9,9 @@ import { SiTailwindcss } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { SiPostman } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
+import { SiMongodb } from "react-icons/si";
+import { SiInsomnia } from "react-icons/si";
+import { SiMongoose } from "react-icons/si";
 
 const AllTechnologies = () => {
   return (
@@ -23,6 +26,9 @@ const AllTechnologies = () => {
         <div className="flex justify-center items-center"><SiTailwindcss className="text-white w-8 h-8"/></div>
         <div className="flex justify-center items-center"><TbBrandVscode className="text-white w-8 h-8"/></div>
         <div className="flex justify-center items-center"><IoLogoJavascript className="text-white w-8 h-8"/></div>
+        <div className="flex justify-center items-center"><SiMongodb className="text-white w-8 h-8"/></div>
+        <div className="flex justify-center items-center"><SiInsomnia className="text-white w-8 h-8"/></div>
+        <div className="flex justify-center items-center"><SiMongoose className="text-white w-8 h-8"/></div>
     </div>
     
   )

@@ -104,6 +104,26 @@ const Recipes = () => {
                 </a>
             </div> 
           </button>
+          <button  className='border-solid'>
+
+              <div className='relative w-width-custom rounded border border-plain-dark-blue bg-transparent text-plain-dark-blue hover:bg-plain-dark-blue hover:text-white'>
+              <a href='https://github.com/iriamr12/toDoList' target='_blank'>
+                  <h3 className='relative top-4 right-28 font-bold'>To Do App</h3>
+                  <p className='absolute right-14 top-5'><small></small></p>
+                  <div className='grid grid-cols-3 gap-4 justify-center items-center mt-12 mb-10'>
+                        <div className="flex justify-center items-center"><FaReact className="text-white w-8 h-8"/></div>
+                        <div className="flex justify-center items-center"><SiTailwindcss className="text-white w-8 h-8"/></div>
+                        <div className="flex justify-center items-center"><SiPostman className="text-white w-8 h-8"/></div>
+                        <div className="flex justify-center items-center"><SiMongodb className="text-white w-8 h-8"/></div>
+                        <div className="flex justify-center items-center"><SiMongoose className="text-white w-8 h-8"/></div>
+                        <div className="flex justify-center items-center"><SiExpress className="text-white w-8 h-8"/></div>
+                        <div className="flex justify-center items-center"><FaNode className="text-white w-8 h-8"/></div>
+                        <div className="flex justify-center items-center"><TbBrandVscode className="text-white w-8 h-8"/></div>
+                        <div className="flex justify-center items-center"><IoLogoJavascript className="text-white w-8 h-8"/></div>
+                </div>  
+                </a>
+            </div> 
+          </button>
 
     </div>
     

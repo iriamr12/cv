@@ -34,7 +34,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="malito:iria.moreno12@gmail.com" target="_blank" download>
+                    <a href="mailto:iria.moreno12@gmail.com" target="_blank" download>
                     <button className="w-14 h-14 m-2 bg-plain-beige rounded-full flex justify-center items-center"><MdEmail className="text-dark-pomegranade w-8 h-8"/></button>
                     </a>
                   </li>
@@ -71,7 +71,7 @@ export default function Home() {
             
         </section>
       
-        <section id="fourth-section" className="bg-plain-light-blue text-plain-dark-blue flex justify-center items-center pb-10">
+        <section id="fourth-section" className="bg-plain-light-blue text-plain-dark-blue flex justify-center items-center pt-10 pb-10">
           <div className="border-solid">
             <h1 className="text-3xl mb-10 text-bold">Projects</h1>
             <Recipes />
